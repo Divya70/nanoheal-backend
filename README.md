@@ -27,28 +27,23 @@ This project is a server application built using the Node.js and Express. It dem
 ## Installation
 
 - Clone the Repository:
-
 ##
-
     https://github.com/Divya70/nanoheal-backend.git
     cd nanoheal-backend
 
-- Install Dependencies:
+Install Dependencies:
 
 ##
-
     npm install
 
-- Setup Environment Variable: Create a .env file in the root directory
+Setup Environment Variable: Create a .env file in the root directory
 
 ##
-
     PORT=3000
 
 - Run the Application:
 
 ##
-
     node index.js
 
 
