@@ -4,7 +4,7 @@
 
 [Book & Author Search](https://book-search-backend.vercel.app)
 
-### About
+### About the Application
 
 This project is a server application built using the Node.js and Express. It demonstrates the skills of working with API calls(Open Library API), handling responses, and managing API calls.
 
@@ -17,33 +17,28 @@ This project is a server application built using the Node.js and Express. It dem
 
 ### Working
 
-- On searching books name (ex-da vinci code, pride and prejudice) from frontend a GET API request
+  On searching books name (ex-da vinci code, pride and prejudice) from frontend a GET API request
   is called at **${BackendURLGivenAbove}/book/bookSearch?bookName=${your_bookname}**. This returns a list of first 20 related books to the search.
 
-- On click of any book-card a GET API request is called at **${BackendURLGivenAbove}/book/bookdetail?bookId=${specificIdOfThatBook}**. This will return all the detail of that book.
+  On click of any book-card a GET API request is called at **${BackendURLGivenAbove}/book/bookdetail?bookId=${specificIdOfThatBook}**. This will return all the detail of that book.
 
-- Similar working for authors.
+  Similar working for authors.
 
 ## Installation
 
-- Clone the Repository:
-##
-    https://github.com/Divya70/nanoheal-backend.git
+### Clone the Repository:
+ https://github.com/Divya70/nanoheal-backend.git
     cd nanoheal-backend
 
-Install Dependencies:
+### Install Dependencies:
+npm install
 
-##
-    npm install
+### Setup Environment Variable: Create a .env file in the root directory
 
-Setup Environment Variable: Create a .env file in the root directory
+ PORT=3000
 
-##
-    PORT=3000
+### Run the Application:
 
-- Run the Application:
-
-##
     node index.js
 
 
