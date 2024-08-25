@@ -30,7 +30,7 @@ This project is a server application built using the Node.js and Express. It dem
 
 ##
 
-    git clone https://github.com/srishtigautam21/nanoheal-backend.git
+    https://github.com/Divya70/nanoheal-backend.git
     cd nanoheal-backend
 
 - Install Dependencies:
@@ -43,10 +43,13 @@ This project is a server application built using the Node.js and Express. It dem
 
 ##
 
-    PORT=5000
+    PORT=3000
 
 - Run the Application:
 
 ##
 
     node index.js
+
+
+## Happy To Go, Yayyyyyy...
